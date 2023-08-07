@@ -35,7 +35,7 @@ public class usuarioControler {
         usuario.setCorreo("samir@gmail");
         usuario.setDireccion("calle 55");
         usuario.setNombre("samir");
-
+//carlo
         return usuario;
     }
      @RequestMapping(value = "delete")
