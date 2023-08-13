@@ -21,7 +21,7 @@ public class usuarioControler {
      @RequestMapping(value = "update")
      public usuario update(){
         usuario usuario = new usuario();
-        usuario.setId(3);
+        usuario.setId(4);
         usuario.setCorreo("samir@gmail");
         usuario.setDireccion("calle 55");
         usuario.setNombre("samir");
@@ -31,7 +31,7 @@ public class usuarioControler {
      @RequestMapping(value = "read")  
      public usuario read(){
         usuario usuario = new usuario();
-        usuario.setId(3);
+        usuario.setId(6);
         usuario.setCorreo("samir@gmail");
         usuario.setDireccion("calle 55");
         usuario.setNombre("samir");
@@ -41,7 +41,7 @@ public class usuarioControler {
      @RequestMapping(value = "delete")
      public usuario delete(){
         usuario usuario = new usuario();
-        usuario.setId(3);
+        usuario.setId(21);
         usuario.setCorreo("samir@gmail");
         usuario.setDireccion("calle 55");
         usuario.setNombre("samir");
